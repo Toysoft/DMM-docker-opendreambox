@@ -5,6 +5,8 @@ VOLUME /home
 
 RUN apt-get update && apt-get install -y \
 	python \
+	python3 \
+	python3-distutils \
 	dbus \
 	unattended-upgrades \
 	net-tools \
@@ -35,5 +37,6 @@ RUN apt-get update && apt-get install -y \
 	texinfo \
 	wget
 
+RUN locale-gen en_US.UTF-8
 RUN ln -sf /bin/bash /bin/sh
 RUN useradd -ms /bin/bash oe
