@@ -1,3 +1,3 @@
 #!/bin/sh
-docker build -t opendreambox/build:krogoth .
+docker build -t opendreambox/build:pyro .
 

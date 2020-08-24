@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:bionic
 
 VOLUME /oe
 VOLUME /home
@@ -37,4 +37,3 @@ RUN apt-get update && apt-get install -y \
 
 RUN ln -sf /bin/bash /bin/sh
 RUN useradd -ms /bin/bash oe
-
