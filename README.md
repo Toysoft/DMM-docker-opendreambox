@@ -19,7 +19,7 @@ git clone https://github.com/opendreambox/opendreambox.git -b krogoth krogoth
 cd krogoth
 make image MACHINE=<dm920|dm900|dm520|dm7080|dm820>
 ```
-## Cleanup containers created before ```ìnstall.sh``` existed
+## Cleanup containers created before ```install.sh``` existed
 
 To clean up containers created before there was the "install and use" procedure you can use
 
